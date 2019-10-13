@@ -1,0 +1,171 @@
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f2ae72;
+}
+
+/* Global */
+.container{ 
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.containerb{
+	float:none;
+	text-align:center;
+	width:100%;
+}
+
+.transparentbox{
+	position:absolute; top:300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #8c4646;
+	border: 1px solid black;
+	opacity: 0.6;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+
+/* Header **/
+header{
+	background:#8c4646;
+	color:#ffffff;
+	padding-top:0px;
+	min-height:10px;
+	border-bottom:#d96459 5px solid;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:18px;
+}
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+	font-weight:bold;
+}
+header #name{
+	float:left;
+}
+header #name h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:17px;
+}
+header .mainhigh, header .current a{
+	color:#f2e394;
+	font-weight:bold;
+}
+header a:hover{
+	color:#588c73;
+	font-weight:bold;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+/* Footer */
+footer{
+	padding:1px;
+	margin-top:1px;
+	color:#ffffff;
+	background-color:#3c6653;
+	text-align: center;
+}
+/* HOMEPAGE
+ first section */
+#Homepagesection1{
+	min-height:750px;
+	background:url('./background.jpg') no-repeat 0 -100px;
+	background-position: center;
+	text-align:center;
+	color:#ffffff;
+}
+#Homepagesection1 h2{
+	font-style: color: #ffffff;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#Homepagesection1 p{
+	font-size:20px;
+	font-style: bold;
+}
+/*second section*/
+#Homepagesection2 img.pfp{
+	border-radius: 100%;
+	text-align: center;
+	display: block;
+	width: 150px;
+	clear: both;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+#Homepagesection2 img.pfp{
+	margin: 80px auto 0;
+}
+#Homepagesection2 img.pfp:hover {
+	border-radius: 5% 5%;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transform: scale(1.2);
+}
+#Homepagesection2 p{
+	text-align:center;
+	font-size:25px;
+}
+#Homepagesection2 li, ul{
+	font-size:20px;
+}
+#Homepagesection2{
+	text-align:center;
+}
+#Homepagesection2 .highlight{
+	font-weight: 600;
+	font-style: italic;
+}
+#Homepagesection2 h1{
+	font-size:30px;
+}
+/*CONTACT PAGE
+  First section*/
+#Contactpagesection1 .sociallinks:hover{
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transform: scale(1.2);
+}
+#Contactpagesection1 h2{
+	font-style: color: #ffffff;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+
+
+/* Media Queries - wesbite will adjust depending on window size **/
+@media(max-width: 768px){
+	header #name,
+	header	nav,
+	header nav li{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+
+	header{
+		padding-bottom:20px;
+  }
+
+}
