@@ -3,6 +3,7 @@ body{
 	padding:0;
 	margin:0;
 	background-color:#f2ae72;
+	
 }
 
 /* Global */
@@ -22,6 +23,7 @@ body{
 	position:absolute; top:300px;
 	margin-left: 40px;
 	margin-right: 40px;
+
 	background-color: #8c4646;
 	border: 1px solid black;
 	opacity: 0.6;
@@ -88,11 +90,12 @@ footer{
 /* HOMEPAGE
  first section */
 #Homepagesection1{
-	min-height:750px;
-	background:url('./background.jpg') no-repeat 0 -100px;
+	min-height:940px;
+	background:url('./bg.jpg') no-repeat 0 -100px;
 	background-position: center;
 	text-align:center;
 	color:#ffffff;
+
 }
 #Homepagesection1 h2{
 	font-style: color: #ffffff;
